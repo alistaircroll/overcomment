@@ -1,6 +1,8 @@
 # Overcomment
 
-Overcomment is an agent skill for forensic code audits. It turns a disposable copy of a codebase into a durable dependency and diagnostics map by adding evidence-backed comments to every audited codepoint.
+At Coradiant, we defined good technical infrastructure along four dimensions: Performance, Availability, Scalability, and Security. But many AI-coded systems overlook these attributes. This skill runs an exhaustive audit of your codebase by first overcommenting the code (adding verbose comments) and then analyzing it for antipatterns. The result is a punch-list of problems you can tell an agent to address.
+
+Overcomment turns a disposable copy of a codebase into a durable dependency and diagnostics map by adding evidence-backed comments to every audited codepoint. **Important: You should run this on a copy of your codebase, not the original codebase, because it will add a lot of unnecessary comments to the code as part of the process.**
 
 The workflow is intentionally invasive inside the audit copy:
 
