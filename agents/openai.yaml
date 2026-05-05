@@ -1,0 +1,4 @@
+interface:
+  display_name: "/overcomment"
+  short_description: "Overcomment audit copies with PASS scoring"
+  default_prompt: "Use $overcomment to annotate an audit copy of this repository and produce a prioritized findings report."
